@@ -2,76 +2,64 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <script src="https://kit.fontawesome.com/1808ef0222.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c3b70ad715.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Spotify</title>
-
 </head>
 <body>
-    <div class="container"> 
-
-        <nav>
-
-            <div class ="logo">
+    <div class="container">
+        <nav class="sidebar">
+            <div class="nav-logo">
                 <i class="fa-brands fa-spotify"></i>
             </div>
-
-            <div class ="nav-library">
-                <i class="fa-solid fa-chart-simple fa-flip-horizontal" style="color: #cececf;"></i>
+            <div class="nav-library">
+                <i class="fa-solid fa-chart-simple fa-flip-horizontal"></i>
                 <p>Sua biblioteca +</p>
             </div>
-
             <div class="nav-playlist">
-                <h5>Crie sua primeira playlist</h5>
-                <p>É facil,vamos te ajudar.</p>
+                <h5>Crie uma primeira Playlist</h5>
+                <p>É fácil,vamos te ajudar.</p>
                 <button>Criar playlist</button>
             </div>
-
             <div class="nav-podcast">
                 <h5>Que tal seguir um podcast novo?</h5>
                 <p>Avisaremos você sobre novos episódios.</p>
                 <button>Explore podcasts</button>
             </div>
-
-            <div class="nav-footer"> 
+            <div class="nav-footer">
                 <a href="#">Legal</a>
-                <a href="#">Segurança e Centro de privacidade </a>
+                <a href="#">Segurança e Centro de privacidade</a>
                 <a href="#">Política de privacidade</a>
                 <a href="#">Cookies</a>
                 <a href="#">Sobre anúncios</a>
                 <a href="#">Acessibilidade</a>
-              <h4><a href="#">Cookies</a></h4>
-
+                <h4><a href="#">Cookies</a></h4>
             </div>
-
             <button class="nav-language-button">
-                <i class="fa-solid fa-globe" style="color: #000000;"></i>
-                Portugês do Brasil
+                <i class="fa-solid fa-globe"></i>
+                Português do Brasil
             </button>
-
         </nav>
-
         <main>
             <header class="search-bar">
-                <i class="fa-solid fa-magnifying-glass" style="color: #cececf;"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
                 <input placeholder="O que você quer ouvir?">
             </header>
-
             <section class="content">
-                <h2>Artistas populares</h2>
+                <h2>Artista populares</h2>
                 <div class="artists-grid">
-                    <!--inserir dados com js-->
+                    <!-- inserir dados js-->
+                </div>
+                
+                <h2>Singles e álbuns que todo mundo gosta </h2>
+                <div class="albuns-grid">
+                     <!-- inserir dados js-->
                 </div>
 
-                <h2>Singles e álbuns que todo mundo gosta</h2>
-                <div class="albuns-grid">
-                    <!--inserir dados com js-->
-                </div>
 
             </section>
-
         </main>
     </div>
-    
 </body>
 </html>
