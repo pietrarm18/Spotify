@@ -1,24 +1,40 @@
-<div class="row">
-        <div class="col-4">
-           <div class="card">
-            <div class="card-body">
-                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FGIMP%2Fcomments%2F18g47f2%2Fhow_do_you_make_an_animated_gif_without_seeing%2F%3Ftl%3Dpt-br&psig=AOvVaw0rqGMFIQcW6UuLSNzXWbNq&ust=1740100760043000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPDG49KK0YsDFQAAAAAdAAAAABAP">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <a href="index.html"></a> 
+</head>
+<body style="background-color: rgba(208, 208, 208, 0.801);">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" style="background-color: rgb(221, 200, 171); ">
+              <a class="navbar-brand" href="#"><img src="c:\Users\pietr\OneDrive\Imagens\pngtree-cat-logo-black-png-image_5682480.png" style="width: 50px; height: 50px; "></a>DASH
             </div>
-           </div>
-        </div>
-        <div class="col-4">
-            <div class="card">
-             <div class="card-body">
-                 <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgifer.com%2Fpt%2Fgifs%2Fduck&psig=AOvVaw0rqGMFIQcW6UuLSNzXWbNq&ust=1740100760043000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPDG49KK0YsDFQAAAAAdAAAAABAK" >
-             </div>
+        </nav>
+
+        <div class="row-1">
+            <div class="col-12">
+               <div class="card" style="background-color: rgb(219, 183, 183);">
+                <div class="card-body" style="height: 150px; width: 250px;">
+                    <label for="formGroupExampleInput" class="form-label" ><h3>Razão Social</h3></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite Sua Razão social" style="height: 80px;width: 800px;">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label"><h3>CNPJ</h3></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Digite seu CNPJ" style="height: 50px;width: 800px;">
+                  </div>
+                </div>
+               </div>
             </div>
-         </div>
-         <div class="col-4">
-            <div class="card">
-             <div class="card-body">
-                 <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgizmodo.uol.com.br%2Fe-moleza-como-criar-gifs-com-seu-proprio-smartphone%2F&psig=AOvVaw0rqGMFIQcW6UuLSNzXWbNq&ust=1740100760043000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPDG49KK0YsDFQAAAAAdAAAAABAE" >
-             </div>
-            </div>
-         </div>
-      
-    
+
+            <div class="row-2">
+                <div class="col-12">
+                   <div class="card" style="background-color: rgb(219, 183, 183);">
+                    <div class="card-body" style="height: 150px; width: 250px;">
+                        <label for="formGroupExampleInput" class="form-label" ><h3>DATA</h3></label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite Sua Razão social" style="height: 80px;width: 800px;">
+                      </div>
+
+</body> 
+</html>
